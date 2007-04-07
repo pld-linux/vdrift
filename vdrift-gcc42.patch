@@ -1,0 +1,20 @@
+--- ./build/vdrift-2007-03-23-src/src/main.cpp~	2007-03-22 07:09:55.000000000 +0000
++++ ./build/vdrift-2007-03-23-src/src/main.cpp	2007-08-21 09:03:59.000000000 +0000
+@@ -976,7 +976,7 @@
+ }
+ 
+ // general OpenGL initialization function
+-void InitGL( GLvoid )
++void InitGL( void )
+ {
+ 	//warning:  this must be done BEFORE anything important
+ 	//or else it will override it
+@@ -1150,7 +1150,7 @@
+ }
+ 
+ // Here goes our drawing code
+-int drawGLScene( GLvoid )
++int drawGLScene( void )
+ {
+ 	glViewport(0,0,SCREEN_WIDTH, SCREEN_HEIGHT);
+ 	
