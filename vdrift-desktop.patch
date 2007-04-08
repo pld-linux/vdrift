@@ -1,0 +1,14 @@
+diff -urN vdrift-20070323/build/vdrift-2007-03-23-src/tools/autopackage/vdrift.desktop vdrift-20070323.new/build/vdrift-2007-03-23-src/tools/autopackage/vdrift.desktop
+--- vdrift-20070323/build/vdrift-2007-03-23-src/tools/autopackage/vdrift.desktop	2007-03-16 11:53:33.000000000 +0100
++++ vdrift-20070323.new/build/vdrift-2007-03-23-src/tools/autopackage/vdrift.desktop	2007-04-07 18:12:16.000000000 +0200
+@@ -5,9 +5,8 @@
+ Name=VDrift
+ GenericName=Racing Simulation
+ Comment=Open source racing simulation with drifting in mind
+-Icon=vdrift-64x64.png
++Icon=vdrift
+ Exec=vdrift
+-Path=.
+ Terminal=false
+ Categories=Game;Simulation;
+ 
