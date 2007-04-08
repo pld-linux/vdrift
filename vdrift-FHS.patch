@@ -1,0 +1,19 @@
+diff -urN vdrift/build/vdrift-2007-03-23-src/src/settings.cpp vdrift.new/build/vdrift-2007-03-23-src/src/settings.cpp
+--- vdrift/build/vdrift-2007-03-23-src/src/settings.cpp	2007-03-21 23:33:40.000000000 +0100
++++ vdrift.new/build/vdrift-2007-03-23-src/src/settings.cpp	2007-04-07 22:57:03.000000000 +0200
+@@ -97,14 +97,11 @@
+ 	{
+ 		cout << "BinReloc successfully initialized." << endl;
+ 		cout << "Executable path: " << br_find_exe( "/usr/share/games/vdrift/bin" ) << endl;
+-		cout << "Data dir: " << br_find_prefix( "/usr/share/games/vdrift" );
+-		cout << "/data" << endl;
+-		data_directory = br_find_prefix( "/usr/share/games/vdrift" );
++		cout << "Data dir: " << data_directory << endl;
+ 		#ifdef ENABLE_NLS
+ 		cout << "Localedir: " << br_find_locale_dir( "/usr/share/locale" ) << endl;
+ 		locale_directory = br_find_locale_dir( "/usr/share/locale" );
+ 		#endif
+-		data_directory += "/data";
+ 	}
+ #else
+ #ifdef ENABLE_NLS
