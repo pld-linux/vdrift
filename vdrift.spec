@@ -42,8 +42,8 @@ drift racing in mind. Currently the game features:
 - Much more...
 
 %description -l pl.UTF-8
-VDrift jest międzyplatformowym symulatorem jazdy opartym na kodzie
-open source. Obecnie gra zapewnia:
+VDrift jest wieloplatformowym symulatorem jazdy o otwartym kodzie
+źródłowym. Obecnie gra zapewnia:
 - 19 tras: Barcelona, Brands Hatch, Detroit, Dijon, Hockenheim,
   Jarama, Kyalami, Laguna Seca, Le Mans, Monaco, Monza, Mosport,
   Nrburgring Nordschleife, Pau, Road Atlanta, Ruudskogen, Spa
@@ -51,9 +51,9 @@ open source. Obecnie gra zapewnia:
 - 28 samochodów: 3S, AX2, C7, CO, CS, CT, F1, FE, FF, G4, GT, M3, M7,
   MC, MI, NS, RG, RS2, SB, T73, TC, TL, TL2, XG, XM, XS, Z06
 - Wyścig przeciwko komputerowym graczom
-- Prosty tryb multiplayer przez sieć
+- Prosty tryb dla wielu graczy przez sieć
 - Bardzo realistyczną fizykę
-- Myszka/joystick/klawiatura menu ustawień
+- Menu sterowane myszką/joystickiem/klawiaturą
 - Wiele więcej...
 
 %package data-cars-base
