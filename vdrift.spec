@@ -1,4 +1,4 @@
-%define _ver	2008-08-05
+%define _ver	2007-03-23
 Summary:	A free drift racing simulator with excellent physics and graphics
 Summary(pl.UTF-8):	Darmowy symulator wyścigów ze wspaniałą fizyką i grafiką
 Name:		vdrift
@@ -7,9 +7,9 @@ Release:	1
 License:	GPL v2
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/vdrift/%{name}-%{_ver}-src.tar.bz2
-# Source0-md5:	9e3e3c91960146354c2a9fb65da3bd97
-#Source1:	http://dl.sourceforge.net/vdrift/%{name}-%{_ver}-data-full.tar.bz2
-## Source1-md5:	2136ce2e347a018f2400e3f114e005fd
+# Source0-md5:	efc5c3c409923382035738798a6392e8
+Source1:	http://dl.sourceforge.net/vdrift/%{name}-%{_ver}-data-full.tar.bz2
+# Source1-md5:	2136ce2e347a018f2400e3f114e005fd
 Patch0:		%{name}-gcc42.patch
 Patch1:		%{name}-desktop.patch
 Patch2:		%{name}-FHS.patch
@@ -105,12 +105,12 @@ Extra tracks for VDrift.
 Dodatkowe trasy dla VDrift.
 
 %prep
-%setup -q -n vdrift-08-05-08
-#%patch0 -p1
-#%patch1 -p1
-#%patch2 -p1
+%setup -q -c -a1
+%patch0 -p1
+%patch1 -p1
+%patch2 -p1
 
-#mv vdrift-08-05-08-src/data/* build/vdrift-%{_ver}-src/data/
+mv vdrift-%{_ver}-src/data/* build/vdrift-%{_ver}-src/data/
 
 %build
 cd build/%{name}-%{_ver}-src
