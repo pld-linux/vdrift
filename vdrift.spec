@@ -19,7 +19,7 @@ BuildRequires:	SDL_gfx-devel
 BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_net-devel
 BuildRequires:	freealut-devel
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	rpmbuild(macros) >= 1.337
 BuildRequires:	scons
 Requires:	vdrift-car-resources
